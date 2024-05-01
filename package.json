@@ -1,5 +1,5 @@
 {
-  "name": "@Omochice/personal-renovate-config",
+  "name": "@ryoppippi/personal-renovate-config",
   "version": "0.0.1",
   "private": true,
   "description": "renovate configuration for me(experimental)",
@@ -7,7 +7,7 @@
     "renovate"
   ],
   "license": "zlib",
-  "author": "Omochice",
+  "author": "ryoppippi",
   "scripts": {
     "test": "npm-run-all test:validate test:regex",
     "test:validate": "renovate-config-validator --strict mise.json mise/*.json playwright.json",
